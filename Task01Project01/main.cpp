@@ -11,7 +11,7 @@ int main() {
 
 	init(array, size, -50, 100);
 
-	cout << "Array: " << convert(array, size);
+	cout << "Array: " << convert(array, size) << endl;
 
 	cout << "Sum between extrem elements is "
 		<< sum_elements_between_extrems(array, size) << endl;
